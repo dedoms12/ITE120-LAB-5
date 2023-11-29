@@ -1,0 +1,31 @@
+body {
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1,
+form,
+p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.content-wthree {
+    flex-basis: 60%;
+    -webkit-flex-basis: 60%;
+    box-sizing: border-box;
+    padding: 1em 10em 4em;
+    background: rgba(100, 100, 100, 0.8);
+    box-shadow: 2px 9px 49px -17px rgb(4, 1, 1);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
